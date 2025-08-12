@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\webAPI.netDesignPatter\\webAPI.netDesignPatter.csproj": {}
+    "C:\\Users\\User\\Downloads\\webAPI.netDesignPatter\\webAPI.netDesignPatter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\webAPI.netDesignPatter\\webAPI.netDesignPatter.csproj": {
+    "C:\\Users\\User\\Downloads\\webAPI.netDesignPatter\\webAPI.netDesignPatter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\webAPI.netDesignPatter\\webAPI.netDesignPatter.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Downloads\\webAPI.netDesignPatter\\webAPI.netDesignPatter.csproj",
         "projectName": "webAPI.netDesignPatter",
-        "projectPath": "C:\\Users\\User\\Documents\\webAPI.netDesignPatter\\webAPI.netDesignPatter.csproj",
+        "projectPath": "C:\\Users\\User\\Downloads\\webAPI.netDesignPatter\\webAPI.netDesignPatter.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\webAPI.netDesignPatter\\obj\\",
+        "outputPath": "C:\\Users\\User\\Downloads\\webAPI.netDesignPatter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -48,12 +48,16 @@
         "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[1.21.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
             }
           },
           "imports": [

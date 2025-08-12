@@ -1,4 +1,4 @@
-@webAPI.netDesignPatter_HostAddress = http://localhost:5024
+@webAPI.netDesignPatter_HostAddress = http://localhost:5265
 
 GET {{webAPI.netDesignPatter_HostAddress}}/weatherforecast/
 Accept: application/json
